@@ -136,10 +136,3 @@ O Lovable implementou o app sem salvar no banco de dados; foi preciso pedir para
 
 ### O que aprendeu sobre conversar com IAs?
 Foi muito interessante conversar com a IA, porque ela entende bem os objetivos e ajuda a estruturar o projeto. O resultado final ficou melhor do que o esperado.
-```
-
----
-
-Essa versão deixa o README mais **limpo, organizado e profissional**, sem acrescentar nada além do que você já trouxe.  
-
-Quer que eu também prepare uma **versão curta (pitch inicial)** para colocar logo no topo do README, como uma apresentação rápida do projeto?
