@@ -1,15 +1,17 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding, por Tiago Mendes
+
+# 💸 App de Organização de Finanças Pessoais com Vibe Coding  
+por Tiago Mendes
+
+---
+# Finança AI – Pitch Inicial
+
+O **Finança AI** é um aplicativo de organização de finanças pessoais que usa **conversas em linguagem natural** para simplificar o controle de gastos e metas.  
+Ele substitui formulários e planilhas complexas por uma experiência acessível e inclusiva, baseada em **Design Universal**, permitindo que qualquer pessoa registre transações, acompanhe objetivos e receba recomendações financeiras de forma prática e personalizada.
 
 
+## 1. PRD Refinado com o Copilot
 
-### 3. Entregando o Desafio na DIO
-
-Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
-No README do seu repositório, inclua:
-
-PRD refinado com o Copilot 
-
-```markdown
+```txt
 PRD – App de Organização de Finanças Pessoais
 
 1. Contexto
@@ -58,42 +60,54 @@ Oportunidade: oferecer uma experiência conversacional com recomendações autom
   - Coleta de feedback sobre clareza da conversa e utilidade das dicas.
   - Ajustes rápidos no fluxo de interação antes de expandir.
 ```
-Iterações com o Lovable:
-> Crie um APP de Finanças Pessoais com base no seguinte PRD(Product Requeriments Documents ): {PRD}
 
-> Ative o Lovable Cloud e conecte o chat a uma IA real para processar linguagem natural de verdade, com banco de dados para salvar transações e metas {O Lovable criou o app sem ativar o Cloud e sem ativar o chat}
+---
 
-> Está ocorrendo um erro no recebimento da mensagem, veja e conserte esse erro. {Ocorreu um erro no recebimento das mensagens, o Lovable consertou o erro}
+## 2. Iterações com o Lovable
 
-Resultado Final no Lovable: https://james-financas.lovable.app/
+- **Prompt inicial:**  
+  > Crie um APP de Finanças Pessoais com base no seguinte PRD(Product Requeriments Documents ): {PRD}
 
+- **Ajuste solicitado:**  
+  > Ative o Lovable Cloud e conecte o chat a uma IA real para processar linguagem natural de verdade, com banco de dados para salvar transações e metas  
+  {O Lovable criou o app sem ativar o Cloud e sem ativar o chat}
+
+- **Correção de erro:**  
+  > Está ocorrendo um erro no recebimento da mensagem, veja e conserte esse erro.  
+  {Ocorreu um erro no recebimento das mensagens, o Lovable consertou o erro}
+
+- **Resultado Final no Lovable:**  
+  [Finança AI no Lovable](https://james-financas.lovable.app/)
+
+---
+
+## 3. Prints das Interações
 
 <img width="1599" height="721" alt="image" src="https://github.com/user-attachments/assets/f219ffa2-1f26-4ede-a7a5-8cb193115c12" />
 
-
 <img width="1597" height="729" alt="image" src="https://github.com/user-attachments/assets/1906f8d1-4dd5-4f3e-9699-c275ad5a67f3" />
-
 
 <img width="1591" height="725" alt="image" src="https://github.com/user-attachments/assets/d3f5257a-3e80-495e-920a-caf7c438a383" />
 
-
 <img width="1581" height="726" alt="image" src="https://github.com/user-attachments/assets/6bc36a72-e0aa-49ee-a9f5-2aaaacf7ee2d" />
 
-# Finança AI – Resumo do Aplicativo
+---
 
-## Visão Geral
+## 4. Finança AI – Resumo do Aplicativo
+
+### Visão Geral
 O **Finança AI** é um aplicativo de organização de finanças pessoais que funciona por meio de **conversas em linguagem natural**. Ele substitui formulários e planilhas complexas por uma experiência interativa e acessível, permitindo que o usuário registre gastos, acompanhe metas e receba recomendações de forma simples e natural.
 
-## Problema que resolve
+### Problema que resolve
 Muitos usuários desistem de controlar suas finanças porque os apps tradicionais exigem entradas manuais e oferecem pouca personalização.  
 O Finança AI resolve isso com uma interface conversacional e recomendações automáticas.
 
-## Público-Alvo
+### Público-Alvo
 - Pessoas iniciantes no controle financeiro.  
 - Usuários que buscam praticidade e simplicidade.  
 - Compromisso com **Design Universal**, garantindo acessibilidade e boa experiência para o maior número possível de pessoas, independentemente de idade, nível de letramento digital ou necessidades específicas.
 
-## Funcionalidades-Chave
+### Funcionalidades-Chave
 - Registro de gastos via chat em linguagem natural.  
 - Classificação automática das transações.  
 - Definição e acompanhamento de metas financeiras.  
@@ -101,27 +115,31 @@ O Finança AI resolve isso com uma interface conversacional e recomendações au
 - Relatórios simples e visuais.  
 - Interface inclusiva e acessível (Design Universal).
 
-## Exemplo prático
+### Exemplo prático
 O usuário interage com o chatbot “Finança AI” para atualizar metas financeiras, como a compra de um carro.  
 O sistema reconhece aportes, atualiza o progresso e motiva o usuário com mensagens positivas, além de oferecer opções para visualizar relatórios ou planejar próximos passos.
 
-## MVP – Entregável da IA
+### MVP – Entregável da IA
 - **Principais telas:** Conversa, Metas e Relatórios.  
 - **Recursos necessários:** NLP, classificação automática, relatórios, recomendações financeiras, acessibilidade.  
 - **Validação inicial:** testes com usuários iniciantes e perfis diversos para garantir clareza, utilidade e acessibilidade.
 
-  
-## Reflexão
+---
+
+## 5. Reflexão
+
 ### O que funcionou bem?
-    A interação com a IA em conjunto com o PRD, ficou muito bom. O app foi desenvolvido pelo Lovable de uma forma que fica muito fácil para  o usuário.
+A interação com a IA em conjunto com o PRD ficou muito boa. O app foi desenvolvido pelo Lovable de uma forma que torna a experiência simples e prática para o usuário.
+
 ### O que não funcionou como o esperado?
-    O Lovable implementou o app sem salvar no banco de dados; foi preciso pedir para ele implementar o Lovable Cloud, mas no final deu tudo certo.
+O Lovable implementou o app sem salvar no banco de dados; foi preciso pedir para ativar o Lovable Cloud. No final, o problema foi resolvido.
+
 ### O que aprendeu sobre conversar com IAs?
-    Foi muito interessante conversar coma IA porque ela entende tudo direitinho e o resultado final fica muito legal, bem melhor que o esperado.
+Foi muito interessante conversar com a IA, porque ela entende bem os objetivos e ajuda a estruturar o projeto. O resultado final ficou melhor do que o esperado.
+```
 
-> [!TIP]
-> Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
+---
 
-## 💬 Conclusão
+Essa versão deixa o README mais **limpo, organizado e profissional**, sem acrescentar nada além do que você já trouxe.  
 
-Vibe Coding é sobre clareza, curiosidade e criatividade, não sobre perfeição técnica. O verdadeiro objetivo aqui é aprender a pensar junto com a IA, transformando ideias em conceitos reais e enxergando a tecnologia como uma extensão do seu raciocínio criativo. Cada interação é um experimento, quanto mais clara for sua intenção, mais surpreendente será o resultado.
+Quer que eu também prepare uma **versão curta (pitch inicial)** para colocar logo no topo do README, como uma apresentação rápida do projeto?
